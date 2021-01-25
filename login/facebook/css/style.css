@@ -1,0 +1,505 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400,500");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	background: #fff;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin: 0;
+	color: #000;
+	font-family: 'Teko', sans-serif;
+	text-align: left;
+}
+.container {
+	background: url(https://www.pubgmobile.com/id/event/royalepass11/images/kv_1s.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10%;
+	margin-bottom: 0px;
+	max-width: 400px;
+	height: 750px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.container-wrapper {
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(234, 163, 0, 0.7));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+.header {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+    width: 100%;
+    height: 50px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding: 6px;
+    position: relative;
+    border-bottom: 1px solid #eaa300;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header .icon {
+    width: 35;
+    margin: 5px;
+    margin-top: 1px;
+    border-radius: 5px;
+    border: 0.9px solid #eaa300;
+    float: left;
+}
+.header .season {
+    width: 35;
+    margin-right: 5px;
+    float: right;
+}
+.header button {
+    background: none;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin-top: 1%;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    text-transform: uppercase;
+    float: right;
+}
+.header-menu-box {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #eaa300;
+}
+.header-menu-list {
+    width: 30%;
+    color: #eaa300;
+    margin: 30px;
+    margin-top: 2.8%;
+    margin-left:px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.header-menu-list-more {
+    width: 30%;
+    color: #eaa300;
+    margin: 30px;
+    margin-top: 3%;
+    margin-left:px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 2px solid #eaa300;
+    display: inline-block;
+}
+.aktif {
+    border-bottom: 2px solid #eaa300;
+}
+.footer {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+    width: 100%;
+    height: 50px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding: 6px;
+    margin-top: 10px;
+    position: relative;
+    border-top: 1px solid #eaa300;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer img {
+    width: 35;
+    margin: 5px;
+    margin-top: 1px;
+    float: left;
+}
+.footer .apk {
+    width: 150;
+    margin: 5px;
+    margin-top: 5px;
+    float: right;
+}
+.footer button {
+    background: none;
+    width: 20%;
+    height: auto;
+    padding: 7px;
+    margin-top: 1%;
+    margin-right: 5px;
+    color: #eaa300;
+    font-size: 10px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    border: 1px solid #eaa300;
+    border-radius: 3px;
+    outline: none;
+    text-transform: uppercase;
+    float: right;
+}
+.content-box {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: none;
+    font-family: Teko;
+    text-align: left;
+}
+.scroll {
+    overflow: scroll;
+    position: relative;
+    height: 600px;
+    text-align: left;
+    scrollbar-face-color: #ffbb40; 
+    scrollbar-shadow-color: #ffbb40; 
+    scrollbar-highlight-color: #ffbb40; 
+    scrollbar-3dlight-color: #ffbb40; 
+    scrollbar-darkshadow-color: #ffbb40; 
+    scrollbar-track-color: #ffbb40; 
+    scrollbar-arrow-color: #ffbb40;
+}
+.notify {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+    width: 91.5%;
+    height: auto;
+    margin: 12px;
+    margin-bottom: 10px;
+    padding: 7px;
+    color: #eaa300;
+    font-size: 13px;
+    text-align: left;
+    border: 1px solid #eaa300;
+    border-left: 5px solid #eaa300;
+}
+.notify i {
+    color: #eaa300;
+    font-size: 25px;
+    margin-top: 0px;
+    float: right;
+}
+.item {
+	background:#fff;
+	width: 29.5%;
+	height: 100px;
+	margin: 2px;
+	margin-bottom: 26.5%;
+	color: #000;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+}
+.item img {
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.item .status {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+    width: 16%;
+    height: auto;
+    margin: 5px;
+    margin-top: 22%;
+    margin-bottom: 0px;
+    margin-left: 6.5%;
+    padding-top: 2px;
+    color: #eaa300;
+    font-size: 13px;
+    font-family: 'Teko', sans-serif;
+    border: 1px solid #eaa300;
+    border-radius: 30px;
+    position: absolute;
+}
+.item .item-konten {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: #eaa300;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.item-konten button {
+    background: none;
+    width: 45%;
+    height: auto;
+    margin: 1.5px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 2px;
+    color: #eaa300;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #eaa300;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+}
+.item img, .item-konten {
+    border: 1px solid #eaa300;
+}
+.balance {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+	width: 43%;
+	height: auto;
+	color: #eaa300;
+	font-family: Teko;
+	font-weight: 300;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 5px;
+	margin-top: 7px;
+	padding: 10px;
+	border: 1px solid #eaa300;
+	border-radius: 10px;
+	display: inline-block;
+}
+.balance span {
+	font-size: 20px;
+    font-weight: bold;
+}
+.balance img {
+    background: #eaa300;
+    width: 40;
+    padding: 5px;
+    border: 1px solid #eaa300;
+    border-radius: 50%;
+    margin-top: 5%;
+    float: right;
+}
+.balance-on {
+    border: 2px solid #eaa300;
+}
+.popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:9999;
+	background-color:rgba(0, 0, 0, 0.4);
+}
+.popup-box {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 30%;
+	margin-bottom: 10%;
+	width: 354px;
+	height: auto;
+	color: #eaa300;
+	text-align: left;
+	border: 1px solid #eaa300;
+    border-radius: 10px;
+}
+.btn-login {
+    background-image: url(../img/blue-tile.png);
+    background-color: #0d1321;
+	width: 90%;
+	height: 43px;
+	margin-bottom: 10px;
+	color: #fff;
+	border: 1px solid #eaa300;
+	display: inline-block;
+}
+.btn-login .bungkusan-konten {
+	height: 100%;
+	width: 100%;
+}
+.btn-login img {
+	width: 18px;
+	height: 18px;
+	float: left;
+}
+.btn-login .bungkusan-logo {
+	background: #eaa300;
+	width: 48px;
+	height: 100%;
+	padding: 14px;
+	padding-top: 11px;
+	border-radius: 1px;
+	display: inline-block;
+	float: left;
+}
+.btn-login .bungkusan-teks {
+    width: 180px;
+    color: #eaa300;
+    font-family: Teko;
+	line-height: 42px;
+	vertical-align: top;
+	text-align:center;
+	border: none;
+	display: inline-block;
+}
+.btn-back {
+    background: none;
+    width: 30%;
+    height: auto;
+    margin: 5%;
+    padding: 5px;
+    color: #eaa300;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #eaa300;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+}
+input[type=text],input[type=password],input[type=number] {
+	background: none;
+	width: 90%;
+	height: auto;
+	font-size: 15px;
+	font-family: Teko;
+	color: #eaa300;
+	padding: 5px;
+	padding-left: 4px;
+	margin-top: 10px;
+	border: 1px solid #eaa300;
+	border-radius: 5px;
+	position: relative;
+	outline: none;
+}
+.validEmail {
+	background: none;
+	width: 75%;
+	height: auto;
+	font-size: 15px;
+	font-family: Teko;
+	color: #eaa300;
+	padding: 5px;
+	padding-left: 4px;
+	margin-top: 10px;
+	margin-bottom: 5%;
+	border: 1px solid #eaa300;
+	border-radius: 5px;
+	position: relative;
+	outline: none;
+}
+.btn-valid {
+    background: none;
+    width: 10%;
+    height: 33px;
+    margin-top: 10px;
+    margin-right: 17px;
+    padding: 5px;
+    color: #eaa300;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #eaa300;
+    border-radius: 5px;
+    outline: none;
+    float: right;
+    display: inline-block;
+}
+select {
+	background: none;
+	width: 90%;
+	height: auto;
+	font-size: 15px;
+	font-family: Teko;
+	color: #eaa300;
+	padding: 5px;
+	padding-left: 0px;
+	margin-top: 10px;
+	border: 1px solid #eaa300;
+	border-radius: 5px;
+	position: relative;
+	outline: none;
+}
+::placeholder {
+    color: #eaa300;
+}
+small {
+    font-size: 10px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 16px;
+    float: left;
+}
+.message {
+    width: 90%;
+    height: auto;
+    margin: 12px;
+    margin-bottom: 0;
+    padding: 7px;
+    color: #eaa300;
+    text-align: left;
+}
+::-webkit-scrollbar {
+    display: none; 
+}
+@media only screen and (max-width:600px) {
+     body {
+        background: url(../img/bg-login.png) no-repeat center center fixed;
+        background-size: 100% 100%;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .header {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .header-menu-list {
+        margin-top: 3%;
+    }
+	.header-menu-list-more {
+        margin-top: 3.5%;
+    }
+    .footer {
+        margin-top: 5.3%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .scroll {
+        height: 470px;
+    }
+    .item {
+        height: 100px;
+        width: 105px;
+        margin-bottom: 28.5%;
+    }
+    .item .status {
+        margin-top: 25%;
+    }
+    .popup-box {
+        width: 89.5%;
+        margin-top: 50%;
+	}
+}
